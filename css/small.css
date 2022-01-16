@@ -1,31 +1,87 @@
- 
-    img {
-        width: 250px;
-        height: auto;
-        background-color: gray;
-        background-image: blue;
-        padding: 100px;
-    }
-    div {
-        margin: 10px;
-        text-align: center;
-    }
-    
-    footer {
-        background-color: gray;
-        color: black;
-        padding: 50px;
-       
-    }
+@charset "utf-8";
+:root {
+    --blue:rgba(51, 119, 170, 1);
+    --blue-5:rgba(51, 100, 170, 0.5);
+    --blue-8:rgba(51, 119, 170, 0.8);
+    --brown:rgba(100, 50, 25, 0.1);
+}
 
-    h1 {
-        font-size: 2.75rem;
-        margin: 0.10rem;
-        font-family: 'Titan One', cursive;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    line-height: 2;
+    font-family: 'Titan One', cursive;
+    color: red;
+}
+
+header, 
+nav, 
+main, 
+footer {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 500px;
+    background-color: gray;
+    color: black;
+    padding: 50px;
+}
+img {
+    width: 200px;
+    margin: 0 auto;
+    
+    height: auto;
+    border-style: none;
+    padding: 1px;
+    float: center;
+    
+}
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    box-shadow: 0 0 10px black;
+}
+footer {
+    font-size: 1rem;
+}
+footer a:link,
+a:visited
+a:active {
+    color: black
+}
+.linklist {
+    font-family:'Handlee';
+    margin: 0 auto;
+}
+
+.linklist ul {
+    margin-left: 30px;
+}
+.grey {
+    color: black;
+    font-size: smaller;
+}
+h1 {
+    font-size: 2.75rem;
+    margin: 0.10rem;
+    font-family: 'Titan One', cursive;
     }
-    h2, h3 {
-        font-family: 'Handlee', cursive;
+h2 {
+    font-size: 1rem;
+    font-family: 'Handlee', cursive;
     }
+h3 {
+    font-size: 0.25rem; 
+}
 
 
 
