@@ -2,12 +2,13 @@
 body {
     margin: 0;
     }
-h1, h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+h1, h2, h3 {
+    font-family: Impact, Haettenschweiler, sans-serif;
     }
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
     }
+    
 .header {
     background-color: darkcyan;
     height: 90px;
@@ -29,7 +30,7 @@ p {
 .webpage-3 {
     background-color: lightslategray;
     width: 33.33%;
-    float: left;
+    float: right;
     }
 .footer {
     text-align: center;
