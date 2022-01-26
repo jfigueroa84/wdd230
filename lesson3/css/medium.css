@@ -1,0 +1,22 @@
+/* medium.css */
+header .wrap {
+  display: block;
+  text-align: center;
+}
+
+
+header {
+  height: 10em;
+}
+
+header h1 {
+  padding: 0.75em 0;
+}
+
+nav {
+  padding: 1em 0;
+}
+
+nav ul {
+  justify-content: center;
+}
