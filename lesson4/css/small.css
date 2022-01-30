@@ -1,0 +1,44 @@
+/* small.css */
+header .wrap {
+  display: block;
+  text-align: center;
+}
+
+header {
+  height: auto;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+nav {
+  padding: 0;
+}
+
+nav ul {
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav a {
+  font-size: 1.25em;
+  padding: 1em;
+  display: block;
+}
+
+main.home {
+  display: block;
+}
+
+nav li:first-child {
+  display: list-item;
+}
+
+nav li {
+  display: none;
+}
+
+nav.open li {
+  display: list-item;
+}
