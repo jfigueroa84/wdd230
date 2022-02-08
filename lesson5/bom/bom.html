@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Book of Mormon DOM App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="List of your favorite Book of Mormon chapters"
+    />
+    <script src="js/main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+  <body>
+    <h1>📘 Book of Mormon  Top 25</h1>
+    <main>
+      <div class="input">
+        <label for="chapter">Enter book name & chapter number</label>
+        <input id="chapterInput" type="text" id="fav" placeholder="Mosiah 3" />
+        <button id="addBtn" type="button">Add Chapter</button>
+      </div>
+      <div class="list">
+        <ul id="chapterList"></ul>
+      </div>
+    </main>
+  </body>
+</html>
