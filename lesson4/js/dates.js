@@ -4,10 +4,18 @@ lastmod.textContent = `Last Modified: ${document.lastModified}`;
 const currentDate = new Date();
 document.querySelector("#year").textContent = currentDate.getFullYear();
 
+function init() {
+  // current date
+  document.querySelector('.today').innerHTML = new Intl.DateTimeFormat(
+    'en-US',
+    {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    }
+  ).format(new Date());
 
-
-
-{
 const openMenuToggle = document.querySelector(".menu-toggle");
 const navMenu = document.querySelector("nav");
 
@@ -28,5 +36,6 @@ openMenuToggle.addEventListener(
     }
 };
 }
+
 window.onload = init;
 
