@@ -1,6 +1,9 @@
 /* small.css */
 
+
 main {
+  display: block;
+  text-align: center;
   grid-template-columns: 1fr;
 }
 
@@ -34,8 +37,13 @@ nav a {
 
 main.home {
   display: block;
+  text-align: center;
+  grid-template-columns: 1fr;
 }
-
+img {
+  display: block;
+  height: auto;
+}
 nav li:first-child {
   display: list-item;
 }
@@ -50,3 +58,4 @@ nav.open li {
 .contact {
   display: block;
 }
+
