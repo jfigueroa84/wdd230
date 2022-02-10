@@ -94,22 +94,23 @@ nav li:first-child {
 }
 
 .contact {
-  background: #EDEFF0;
+  background: #d4d8da;
   margin-bottom: 2em;
   padding: 1em;
   display: flex;
 }
 
 .contact .map {
-  flex-grow: 10;
+  flex-grow: 20;
   width: 60em;
   height: 35em;
   background: url('../images/shooting-range-map.jpg');
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 1.33em;
+  margin-right: 1em;
   border: 0.25em solid #d2d4d4;
+  vertical-align: middle;
 }
 footer {
   margin-top: 1em;
