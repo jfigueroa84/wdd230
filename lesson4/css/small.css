@@ -1,4 +1,9 @@
 /* small.css */
+
+main {
+  grid-template-columns: 1fr;
+}
+
 header .wrap {
   display: block;
   text-align: center;
@@ -41,4 +46,7 @@ nav li {
 
 nav.open li {
   display: list-item;
+}
+.contact {
+  display: block;
 }
