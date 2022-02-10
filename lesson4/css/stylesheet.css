@@ -93,6 +93,24 @@ nav li:first-child {
   display: none;
 }
 
+.contact {
+  background: #EDEFF0;
+  margin-bottom: 2em;
+  padding: 1em;
+  display: flex;
+}
+
+.contact .map {
+  flex-grow: 10;
+  width: 60em;
+  height: 35em;
+  background: url('../images/shooting-range-map.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 1.33em;
+  border: 0.25em solid #d2d4d4;
+}
 footer {
   margin-top: 1em;
   color: #0f0f0f;
@@ -102,10 +120,5 @@ footer {
   text-align: center;
 }
 
-/* temporary */
-.comingsoon {
-  padding: 2em;
-  border: 0.25em solid #d2d4d4;
-  background: #edeff0;
-  margin-bottom: 2em;
-}
+
+
