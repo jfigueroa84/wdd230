@@ -101,10 +101,10 @@ nav li:first-child {
 }
 
 .contact .map {
-  flex-grow: 20;
-  width: 60em;
-  height: 35em;
-  background: url('../images/shooting-range-map.jpg');
+  flex-grow: 10;
+  width: 30em;
+  height: 30em;
+  background: url('../images/range-map.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
