@@ -8,7 +8,7 @@
       name="description"
       content="Figs shooting range website."/>
     
-    
+      <script src="js/windchill.js"></script>
       <script defer src="js/dates.js"></script>
       <link rel="shortcut icon" href="favicon.ico" />
    
@@ -63,9 +63,50 @@
           </nav>
 
           <main>
-           
+            <section><div class="greet"></div></section>
+            <section class="hero">
+              <ul class="weather-summary">
+                <li>Current Weather</li>
+                <li>Sunny</li>
+                <li>High: 98&deg;</li>
+                <li>Low: 75&deg;</li>
+                <li>Wind Chill: <span class="wind-chill"></span>&deg;</li>
+              </ul>
+            </section>
+            <h2>Forecast</h2>
+            <section class="forecast-section">
+              <ul class="forecast">
+                <li>
+                  <h3>Monday</h3>
+                  <p>H: 100&deg;</p>
+                  <p>L: 80&deg;</p>
+                </li>
+                <li>
+                  <h3>Tuesday</h3>
+                  <p>H: 101&deg;</p>
+                  <p>L: 79&deg;</p>
+                </li>
+                <li>
+                  <h3>Wednesday</h3>  
+                  <p>H: 95&deg;</p>
+                  <p>L: 75&deg;</p>
+                </li>
+                <li>
+                  <h3>Thursday</h3>
+                  <p>H: 98&deg;</p>
+                  <p>L: 78&deg;</p>
+                </li>
+                <li>
+                  <h3>Friday</h3>
+                  <p>H: 100&deg;</p>
+                  <p>L: 78&deg;</p>
+                </li>
+              </ul>
+            </section>
+            
             <section class="contact">
               <div class="map"></div>
+              
               <div class="information">
                 <h2>Contact Infomation</h2>
                 <p>
