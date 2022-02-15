@@ -129,7 +129,7 @@ nav li:first-child {
   padding: 0.2em 1em;
   background: rgba(255,255,255,0.9);
   position: absolute;
-  top: 100%;
+  top: 200%;
   transform: translateY(-500%);
   left: 7em;
   border: 0.25em solid #d2d4d4;
@@ -190,5 +190,13 @@ footer {
   float: right;
   margin: 1em;
 }
-
+section.hero {
+  aspect-ratio: 930 / 450;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  margin-bottom: 2em;
+  position: relative;
+}
 
