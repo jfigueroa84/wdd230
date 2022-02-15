@@ -5,7 +5,8 @@ const currentDate = new Date();
 document.querySelector("#year").textContent = currentDate.getFullYear();
 
 
-
+// set windchill 
+document.querySelector('.wind-chill').innerHTML = windChill(46, 16);
 
 function init() {
   // current date
@@ -22,6 +23,9 @@ function init() {
   if (isMonday) {
     document.querySelector('.announcement-banner').style.display = 'block';
   }
+  // set windchill 
+document.querySelector('.wind-chill').innerHTML = windChill(46, 16);
+
 }
 
 
