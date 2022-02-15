@@ -1,5 +1,8 @@
 /* small.css */
 
+section.hero {
+  background-image: url('../images/wdd230-small-org.jpg');
+}
 main {
   display: block;
   text-align: center;
@@ -54,4 +57,17 @@ nav.open li {
 .contact {
   display: block;
 }
-
+.main-story img {
+  float: none;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 28.125em;
+  height: auto;
+}
+@media screen and (max-width: 34em) {
+  section.hero {
+    aspect-ratio: auto;
+    height: 15em;
+  }
+}
