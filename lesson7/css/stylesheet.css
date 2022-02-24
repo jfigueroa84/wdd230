@@ -200,3 +200,44 @@ section.hero {
   position: relative;
 }
 
+
+/* photo gallery*/
+.gallery {
+  display: grid;
+  grid-gap: 2em;
+  width: 100%;
+  align-items: center;
+}
+
+.gallery figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 0.3em;
+    margin: 0;
+    width: 100%;
+}
+
+.gallery figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic sans-serif;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.gallery img[data-src] {
+  filter: grayscale(100%);
+}
+
+.gallery img {
+  filter: grayscale(0%);
+  transition: filter 1.25s;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+p.last-visit {
+  text-align: center;
+}

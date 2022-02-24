@@ -70,4 +70,8 @@ nav.open li {
     aspect-ratio: auto;
     height: 15em;
   }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
 }
