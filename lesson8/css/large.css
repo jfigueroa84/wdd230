@@ -1,0 +1,20 @@
+/* large.css */
+section.hero {
+    background-image: url('../images/wdd230-org.jpg');
+}
+
+.gallery {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery figure {
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.gallery figure:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.2, 1.2);
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+  
