@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Juan Figueroa | Fig's Shooting Range</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Figs shooting range website."/>
+    
+      <script src="js/windchill.js"></script>
+      <script defer src="js/dates.js"></script>
+      <link rel="shortcut icon" href="favicon.ico" />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="css/small.css"
+      media="(max-width: 47em)"
+    />
+    <link
+      rel="stylesheet"
+      href="css/medium.css"
+      media="(min-width: 47em) and (max-width: 75em)"
+    />
+    <link rel="stylesheet" href="css/large.css" media="(min-width: 76em)" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <div class="brand">
+          <h1>
+            Fig's 
+            <img src="images/shooting-range-logo.jpg" alt="figs shooting range logo" width="75"/>
+            Shooting Range
+          </h1>
+          <div class="motto">Let's go shooting!</div>
+          <nav>
+
+            <div class="announcement-banner">
+                <p class="wrap">
+                
+                </p>
+              <nav>
+            <ul class="wrap">
+              <li>
+                <a class="menu-toggle" href="#"> &#9776; Menu </a>
+              </li>
+              <li><a href="main/index.html">Home</a></li>
+              <li><a href="#">Blank</a></li>
+              <li><a href="#">Blank</a></li>
+              <li class="active"><a href="join.html">Appointment</a></li>
+              <li><a href="#">Hours</a></li>
+              <li><a href="discover.html">Photo Gallery</a></li>
+            </ul>
+          </nav>
+
+          <main>
+            <h2>Schedule Appointment with Instructor</h2>
+            <form class="join" action="join.html">
+              <fieldset>
+                <legend>Personal Information</legend>
+                <div class="section">
+                  <label class="required" for="fullName">Full Name</label>
+                  <input
+                    autofocus
+                    id="fullName"
+                    name="full_name"
+                    pattern="[a-zA-Z\s]{5,}"
+                    required
+                    type="text"/>
+      
+                  <label for="email">Email Address </label>
+                  <input
+                    id="email"
+                    name="email"
+                    placeholder="email@example.com"
+                    type="email"/>
+      
+                  <label class="required" for="phone">Phone Number</label>
+                  <input id="phone" name="phone" type="tel" required />
+      
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Schedule Appointment</legend>
+                <div class="section">
+                  <label for="date">Date</label>
+                  <input id="date" name="schedule_date" type="date" />
+      
+                  <label for="times">Times</label>
+                  <div>
+                    <input
+                      id="times"
+                      list="list"
+                      name="list-times"
+                      type="text"/>
+                    <datalist id="list">
+                      <option value="8:00AM - 9:00AM"></option>
+                      <option value="10:00AM - 11:00AM"></option>
+                      <option value="1:00PM - 2:00PM"></option>
+                      <option value="3:00PM - 4:00PM"></option>
+                      <option value="5:00PM - 6:00PM"></option>
+                    </datalist>
+                  </div>
+      
+                  <label for="skillLevel">Skill Level</label>
+                  <div>
+                    <input
+                      id="skillLevel"
+                      list="tickmarks"
+                      max="10"
+                      min="1"
+                      name="level"
+                      step="1"
+                      type="range"
+                      value="5"/>
+                    <span id="severityValue"></span>
+                    <datalist id="tickmarks">
+                      <option value="1"></option>
+                      <option value="2"></option>
+                      <option value="3"></option>
+                      <option value="4"></option>
+                      <option value="5"></option>
+                      <option value="6"></option>
+                      <option value="7"></option>
+                      <option value="8"></option>
+                      <option value="9"></option>
+                      <option value="10"></option>
+                    </datalist>
+                  </div>
+      
+                  <label for="firearm">Firearm Type</label>
+                  <select id="firearm" name="firearmType">
+                    <option disabled>Firearm Type...</option>
+                    <option value="handgun">Handgun</option>
+                    <option value="rifle">Rifle</option>
+                    <option value="shotgun">Shotgun</option>
+                  </select>
+      
+                  <label>Need Safety Gear?</label>
+                  <div class="radio-group">
+                    <input
+                      id="safetyYes"
+                      name="safety"
+                      type="radio"
+                      value="yes"
+                    />
+                    <label for="safetyYes">Yes</label>
+                    <input
+                      checked
+                      id="safetyNo"
+                      name="safety"
+                      type="radio"
+                      value="no"
+                    />
+                    <label for="safetyNo">No</label>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Additional Information</legend>
+                <div class="section">
+                  <label class="align-top" for="notes">Notes</label>
+                  <textarea id="notes" name="notes"></textarea>
+                </div>
+              </fieldset>
+              <fieldset>
+                <div class="section">
+                  <span></span>
+                  <div>
+                    <button type="submit">Submit Storm Information</button>
+                    <button type="reset">Reset</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+           
+
+          </main>
+       
+          <p class="wrap">
+            <br />
+            <span class="today"></span>
+          </p>
+        </div>
+      </div>
+    </header>
+   
+    <footer>
+      <h2>
+        &copy;<span id="year"></span> | Juan Figueroa | Bakersfield, California 
+      </h2>
+    <h3>
+        <p id="lastmod"></p>   
+    </h3>
+    </footer>
+  </body>
+</html>

@@ -74,4 +74,31 @@ nav.open li {
   .gallery {
     grid-template-columns: 1fr;
   }
+
+  .join legend {
+    margin-left: 0;
+  }
+  
+  .join .section {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+  
+  .join .section > *:nth-child(odd) {
+    justify-self: flex-start;
+    margin-bottom: 0.5em;
+  }
+  
+  .join .section > *:nth-child(even) {
+    justify-self: stretch;
+    margin-bottom: 1em;
+  }
+  
+  .join input {
+    width: 100%;
+  }
+  
+  .join .radio-group input {
+    width: auto;
+  }
 }

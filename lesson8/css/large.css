@@ -16,5 +16,31 @@ section.hero {
   transform: scale(1.2, 1.2);
   transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+.join {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "personal storm"
+    "additional additional"
+    "footer footer";
+}
 
+.join fieldset:nth-child(1) {
+  grid-area: personal;
+  margin-top: 1em;
+}
+
+.join fieldset:nth-child(2) {
+  grid-area: storm;
+  margin-top: 1em;
+}
+
+.join fieldset:nth-child(3) {
+  grid-area: additional;
+}
+
+.join fieldset:nth-child(4) {
+  grid-area: footer;
+}
   
