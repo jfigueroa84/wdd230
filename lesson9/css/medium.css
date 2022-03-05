@@ -1,0 +1,10 @@
+/* medium.css */
+section.hero {
+    background-image: url('../images/wdd230-medium-org.jpg');
+}
+
+
+.gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  
