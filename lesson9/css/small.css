@@ -1,13 +1,5 @@
 /* small.css */
 
-section.hero {
-  background-image: url('../images/wdd230-small-org.jpg');
-}
-main {
-  display: block;
-  text-align: center;
-  grid-template-columns: 1fr;
-}
 
 header .wrap {
   display: block;
@@ -18,8 +10,10 @@ header {
   height: auto;
 }
 
-header h1 {
-  font-size: 2em;
+header .logo {
+  margin: 0 1.5em 0 1.5em;
+  max-width: 100%;
+  height: auto;
 }
 
 nav {
@@ -32,15 +26,7 @@ nav ul {
 }
 
 nav a {
-  font-size: 1.25em;
-  padding: 1em;
   display: block;
-}
-
-main.home {
-  display: block;
-  text-align: center;
-  grid-template-columns: 1fr;
 }
 
 nav li:first-child {
@@ -54,51 +40,100 @@ nav li {
 nav.open li {
   display: list-item;
 }
-.contact {
-  display: block;
+
+main {
+  gap: 0.5em;
+  padding: 0.5em 0;
+  grid-template-columns: 1fr;
 }
-.main-story img {
-  float: none;
-  display: block;
-  margin: 0 auto;
+
+main > .hero {
+  grid-column: 1 / 2;
+  height: 17.5em;
   width: 100%;
-  max-width: 28.125em;
-  height: auto;
 }
-@media screen and (max-width: 34em) {
-  section.hero {
-    aspect-ratio: auto;
-    height: 15em;
-  }
 
-  .gallery {
-    grid-template-columns: 1fr;
-  }
-
-  .join legend {
-    margin-left: 0;
-  }
-  
-  .join .section {
-    grid-template-columns: 1fr;
-    grid-gap: 0;
-  }
-  
-  .join .section > *:nth-child(odd) {
-    justify-self: flex-start;
-    margin-bottom: 0.5em;
-  }
-  
-  .join .section > *:nth-child(even) {
-    justify-self: stretch;
-    margin-bottom: 1em;
-  }
-  
-  .join input {
-    width: 100%;
-  }
-  
-  .join .radio-group input {
-    width: auto;
-  }
+main > .contact {
+  display: block;
+  grid-column: 1 / 2;
 }
+
+main > .contact .map {
+  margin-right: 0;
+  margin-bottom: 1em;
+}
+
+main > .details {
+  grid-column: 1 / 2;
+  width: 100%;
+}
+
+main > .content {
+  grid-column: 1 / 2;
+  width: 100%;
+  gap: 0.5em;
+}
+
+/* home */
+main.home .featured > ul > li > a {
+  margin: 1em 2em;
+}
+
+main.home > .content {
+  flex-direction: column-reverse;
+}
+
+/* city */
+main.city > .content {
+  flex-direction: column;
+}
+
+/* directory */
+main.directory.grid > ul {
+  grid-template-columns: 1fr;
+  gap: 0.5em;
+}
+
+main.directory.list li {
+  display: block;
+}
+
+main.directory.list li > * {
+  display: block;
+}
+
+/* contact */
+main.contact h1 {
+  padding: 0 1em;
+}
+
+main.contact section.form {
+  grid-template-columns: 1fr;
+}
+
+/* join */
+main.join h1 {
+  padding: 0 1em;
+}
+
+main.join p {
+  padding: 0 2em;
+}
+
+main.join form {
+  grid-template-columns: 1fr;
+}
+
+main.join form label,
+main.join form input,
+main.join form textarea {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+main.join form legend,
+main.join form .footer {
+  padding-left: 0;
+}
+
