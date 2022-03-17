@@ -1,7 +1,7 @@
 // factory.js
 
 
-function createCompanyAd({ name, logo, url }) {
+function createCompanyAd({ name, logo, url, }) {
   const companyCard = document.createElement('li');
 
   const link = document.createElement('a');
@@ -19,7 +19,7 @@ function createCompanyAd({ name, logo, url }) {
   return companyCard;
 }
 
-function createCompanyCard({ name, logo, phone, address, url }) {
+function createCompanyCard({ name, logo, phone, address, url, }) {
   const companyCard = document.createElement('li');
 
   const img = document.createElement('img');
@@ -28,6 +28,8 @@ function createCompanyCard({ name, logo, phone, address, url }) {
   img.setAttribute('data-src', `images/logos/${logo}`);
   img.setAttribute('alt', `${name} logo`);
   companyCard.appendChild(img);
+
+
 
   const n = document.createElement('span');
   n.classList.add('company-name');
