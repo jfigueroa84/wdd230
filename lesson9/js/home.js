@@ -1,9 +1,9 @@
 
-
 const SPOTLIGHT_COMPANIES = 3;
 
 async function init() {
-  
+
+  // companies 
   const companies = await getCompanies();
   companies
     .sort(() => Math.random() - 0.5) 
