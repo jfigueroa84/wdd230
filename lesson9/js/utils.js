@@ -1,7 +1,7 @@
 function bindLazyload() {
   const imgOptions = {
     threshold: 0.81,
-    // rootMargin: '0px 0px 175px 0px',
+    
   };
 
   const imagesToLoad = document.querySelectorAll('img[data-src]');
