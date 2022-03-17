@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "name": "Bass Pro Shop",
+      "name": "Bass Pro Shops",
       "logo": "bass-pro-logo.png",
       "address": "2121 South Ave. Bakersfield Ca 93309",
       "phone": "(661) 123-4512",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Grab A Gun",
-      "logo": "grabagun-logo.svg",
+      "logo": "grabagub-logo.svg",
       "address": "789 10th St. Bakersfield Ca 93309",
       "phone": "(661) 234-7845",
       "url": "https://www.grabagun.com/"
@@ -58,7 +58,7 @@
     },
     {
       "name": "RK Guns",
-      "logo": "rk-guns.logo.webp",
+      "logo": "rk-guns-logo.webp",
       "address": "2323 West Ave. Bakersfield Ca 93309",
       "phone": "(661) 505-2288",
       "url": "https://www.rkguns.com/"
