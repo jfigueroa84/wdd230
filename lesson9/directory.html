@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/stylesheet.css" />
     <link rel="stylesheet" href="css/small.css" media="(max-width: 48.475em)" />
     <script defer src="js/dates.js"></script>
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -65,10 +66,10 @@
               <li><a href="#">On the Range</a></li>
               <li><a href="#">Prices</a></li>
               <li><a href="#">Hours</a></li>
-              <li><a href="#">Photo Gallery</a></li>
+              <li><a href="discover.html">Photo Gallery</a></li>
             </ul>
           </nav>
-    <link rel="shortcut icon" href="favicon.ico" />
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="preload"
@@ -92,27 +93,32 @@
     <script src="js/data.js"></script>
     <script src="js/factory.js"></script>
     <script src="js/directory.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+
   </head>
   <body>
    
-      <div class="wrap">
-        <div class="brand">
-          <img
-            class="logo"
-            alt=""
-            src="images/logo.svg"
-            width="409"
-            height="90"
-          />
-        </div>
-      </div>
+      
     </header>
+
+    <div class="wrap">
+      <div class="brand">
+        <img
+          class="logo"
+          alt=""
+          src="images/shooting-range.jpg"
+          width="1000"
+          height="400"
+        />
+      </div>
     <main class="directory grid">
-      <h1>Business Directory</h1>
+      <h1>Directory</h1>
       <div class="controls">
         <button class="grid-toggle" aria-label="display directory in grid view">
           <img
-            src="images/placeholder.png"
+            src="images/grid.svg"
             data-src="images/grid.svg"
             width="32"
             height="32"
@@ -121,7 +127,7 @@
         </button>
         <button class="list-toggle" aria-label="display directory in list view">
           <img
-            src="images/placeholder.png"
+            src="images/list.svg"
             data-src="images/list.svg"
             width="32"
             height="32"
@@ -129,7 +135,7 @@
           />
         </button>
       </div>
-      <ul>
+      <ul>        
         <!-- json list -->
       </ul>
     </main>
