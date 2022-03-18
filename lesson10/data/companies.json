@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "name": "Bass Pro Shops",
+      "logo": "bass-pro-logo.png",
+      "address": "2121 South Ave. Bakersfield Ca 93309",
+      "phone": "(661) 123-4512",
+      "url": "https://www.basspro.com/"
+    },
+    {
+      "name": "Buds Gun Shop",
+      "logo": "buds-logo.webp",
+      "address": "5152 Baker Ave. Bakersfield Ca 93309",
+      "phone": "(661) 555-1234",
+      "url": "https://www.budsgunshop.com/"
+    },
+    {
+      "name": "Cabelas",
+      "logo": "cabelas-logo.png",
+      "address": "5263 Smith Ave. Bakersfield Ca 93309",
+      "phone": "(661) 987-6598",
+      "url": "https://www.cabelas.com/"
+    },
+    {
+      "name": "Creative Guns",
+      "logo": "creative-guns-logo.jpg",
+      "address": "1212 Garden St. Bakersfield Ca 93309",
+      "phone": "(661) 123-4658",
+      "url": "https://www.creativeguns.com/"
+    },
+    {
+      "name": "Grab A Gun",
+      "logo": "grabagub-logo.svg",
+      "address": "789 10th St. Bakersfield Ca 93309",
+      "phone": "(661) 234-7845",
+      "url": "https://www.grabagun.com/"
+    },
+    {
+      "name": "Gun Shop",
+      "logo": "gun-shop-logo.jpg",
+      "address": "2121 1st St. Bakersfield Ca 93309",
+      "phone": "(661) 232-7485",
+      "url": "https://www.gunshop.com/"
+    },
+    {
+      "name": "Impact Guns",
+      "logo": "impact-guns-logo.webp",
+      "address": "2121 North Ave. Bakersfield Ca 93309",
+      "phone": "(661) 500-5555",
+      "url": "http://www.impactguns.com/"
+    },
+    {
+      "name": "REI Co Op",
+      "logo": "rei-logo.webp",
+      "address": "5100 Bait Ave. Bakersfield Ca 93309",
+      "phone": "(661) 846-7220",
+      "url": "https://www.rei.com/"
+    },
+    {
+      "name": "RK Guns",
+      "logo": "rk-guns-logo.webp",
+      "address": "2323 West Ave. Bakersfield Ca 93309",
+      "phone": "(661) 505-2288",
+      "url": "https://www.rkguns.com/"
+    }
+  ]
+}

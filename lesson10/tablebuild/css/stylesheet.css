@@ -1,0 +1,51 @@
+* {
+  font-family: Ubuntu, sans-serif;
+}
+
+.my-table {
+  border-collapse: collapse;
+  
+}
+
+.my-table caption {
+  font-size: 150%;
+  font-weight: bold;
+  border: 1px solid #dbd9e7;
+  border-bottom: none;
+  background: #a2b9e4;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.my-table th {
+  color: #ffffff;
+  background: #659cbe;
+}
+
+.my-table th, .my-table td {
+  border: 1px solid #9093be;
+  padding: 10px;
+  text-align: center;
+}
+
+.my-table tr {
+  background: #d5d5da;
+}
+
+.my-table tr:nth-child(even) {
+  background: #edeef3;
+}
+
+.my-table tfoot td {
+  font-size: 80%;
+  background: #58939c;
+}
+
+.my-table tr:nth-child(5) td:nth-child(1) {
+  font-style: italic;
+}
+
+.my-table tr:nth-child(4) td:nth-child(3) {
+  color: #ffffff;
+  background: #4a86ac;
+}
