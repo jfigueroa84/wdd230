@@ -272,7 +272,7 @@ main.directory.grid .grid-toggle {
 }
 
 main.directory.list .list-toggle {
-  background-color: #960505;
+  background-color: #4e5ff3;
 }
 
 main.directory.grid > ul {
@@ -319,7 +319,7 @@ main.directory.list li {
 }
 
 main.directory.list li:nth-child(odd) {
-  background-color: #a70606;
+  background-color: #aabdfa;
 }
 
 main.directory.list .company-logo {
@@ -1037,7 +1037,7 @@ h4,
 
 a,
 a:visited {
-  color: #ff0000;
+  color: #0004ff;
 }
 
 main,
