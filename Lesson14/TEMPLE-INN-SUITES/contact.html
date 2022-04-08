@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>Temple Inn & Suites | Home Page</title>
+    <meta name="description" content="Temple Inn & Suites | Home Page">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Caudex:400,400i,700,700i%7CQuicksand:400,500,700%7CTangerine:400,700"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="images/TempleInnLogo.png" alt="Temple Inn Logo">
+            <h1><a href="index.html">Temple Inn & Suites</a></h1>
+        </header>
+        <nav>
+            <ul class="site-navigation">
+                <li><button onclick="toggleMenu()">&#9776; Menu</button></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li class="activepage"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class=form-container>
+            <form method="get" action="thankyoucontact.html">
+                <h2>Contact Us</h2>
+
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top">First & Last Name*<input type="text" name="name" pattern="[A-Za-z]{5,}" required
+                            autofocus></label>
+                    <label class="top">Email Address*<input type="email" name="email" required placeholder="emailname@email.com"></label>
+                    <label class="top">Phone Number*<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            maxlength="12" placeholder="555-555-5555"></label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Information</legend>
+                    <label for="comments" class="top">Comments & Questions</label>
+                    <textarea id="comments" name="concerns"></textarea>
+                </fieldset>
+                <input class="submitBtn" id="contactBtn" type="submit" value="Send Feeback">
+
+            </form>
+        </div>
+        <div class="contact">
+            <p><strong>Mailing Address:</strong><br>
+                12345 Some Random St<br>
+                Bethesda, MD</p>
+        </div>
+        <footer>
+            <a href="https://www.churchofjesuschrist.org/temples?lang=eng">Church Of Jesus Christ</a>|<a href="contact.html">Contact Us</a> |
+            <span id="currentDate"></span>
+        </footer>
+    </div>
+    <!--container-->
+</body>
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/currentDate.js"></script>
+
+</html>
