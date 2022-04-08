@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>Temple Inn & Suites | Home Page</title>
+    <meta name="description" content="Home Landing page for Temple Inn and Suites">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Caudex:400,400i,700,700i%7CQuicksand:400,500,700%7CTangerine:400,700"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="images/TempleInnLogo.png" alt="Temple Inn Logo">
+            <h1><a href="index.html">Temple Inn & Suites</a></h1>
+
+        </header>
+        <nav>
+            <ul class="site-navigation">
+                <li><button onclick="toggleMenu()">&#9776; Menu</button></li>
+                <li class="activepage"><a href="index.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h2>Welcome to Temple Inn & Suites</h2>
+            <p> The Temple Inn & Suites is located two miles from the San Diego Temple. It offers
+                amenities for those needing a place to stay while serving at the temple.</p>
+
+            <form action="reservations.html">
+                <input class="button" type="submit" value="Make a Reservation" />
+            </form>
+        </div>
+
+        <div class="slideshow-container">
+
+                <picture>
+                    <source media="(min-width: 64em)" srcset="images/san-diego-temple-large.jpeg">
+                    <source media="(min-width: 37.5em)" srcset="images/san-diego-temple-medium.jpeg">
+                    <img src="images/san-diego-temple-small.jpeg" alt="San Diego Temple">
+                </picture>
+            </div>
+            
+       
+        <div class="slideshow-info">
+            <aside>
+                <p>The San Diego Temple is located at 7474 Charmat Dr. San Diego, Ca 92122</p>
+            </aside>
+        </div>
+        
+        <footer>
+            <a href="https://www.churchofjesuschrist.org/temples?lang=eng">Church Of Jesus Christ</a> | <a href="contact.html">Contact Us</a> |
+            <span id="currentDate"></span>
+        </footer>
+    </div>
+
+</body>
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/slideshow.js"></script>
+<script src="scripts/currentDate.js"></script>
+
+</html>
