@@ -35,22 +35,22 @@
                 <h2>Reservations</h2>
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <label class="top">First & Last Name*<input type="text" name="name" pattern="[A-Za-z]{5,}" required
+                    <label class="top">First & Last Name<input type="text" name="name" pattern="[A-Za-z]{5,}" required
                             autofocus></label>
-                    <label class="top">Phone Number*<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                            maxlength="12" placeholder="555-555-5555" required></label>
-                    <label class="top">Home Address*<input type="text" name="street" required></label>
-                    <label class="top">City*<input type="text" name="city" required></label>
-                    <label class="top">State*<input type="text" name="state" required></label>
-                    <label class="top">Zip Code*<input type="text" name="zip" required></label>
-                    <label class="top">Email Address*<input type="email" name="email" required placeholder="emailname@email.com"></label>
+                    <label class="top">Phone Number<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            maxlength="12" required></label>
+                    <label class="top">Home Address<input type="text" name="street" required></label>
+                    <label class="top">City<input type="text" name="city" required></label>
+                    <label class="top">State<input type="text" name="state" required></label>
+                    <label class="top">Zip Code<input type="text" name="zip" required></label>
+                    <label class="top">Email Address<input type="email" name="email" required></label>
                 </fieldset>
                 <fieldset>
                     <legend>Room Information</legend>
-                    <label class="top">Date of Reservation<input type="date" name="resdate"></label>
-                    <label class="top">Desired Bed Type<input list="roomtype" name="roomtype">
+                    <label class="top">Reservation Date<input type="date" name="resdate"></label>
+                    <label class="top">Bedroom Type<input list="roomtype" name="roomtype">
                         <datalist id="roomtype">
-                            <option selected disabled>Select Type of Bed</option>
+                            <option selected disabled>Select Type of Bedroom</option>
                             <option value="Studio"></option>
                             <option value="1 Twin"></option>
                             <option value="2 Twins"></option>
@@ -58,7 +58,7 @@
                             <option value="1 queen"></option>
                             <option value="1 king"></option>
                         </datalist></label>
-                    <label class="top">Desired Room Type
+                    <label class="top">Number of Bedrooms
                         <select name="rooms">
                             <option selected disabled>Select Number of Rooms</option>
                             <option value="single">One</option>
